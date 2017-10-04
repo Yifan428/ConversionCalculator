@@ -15,6 +15,7 @@
 		3CA01F421F84120D0051223F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CA01F401F84120D0051223F /* LaunchScreen.storyboard */; };
 		3CA01F4D1F84120D0051223F /* Conversion_CalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA01F4C1F84120D0051223F /* Conversion_CalculatorTests.swift */; };
 		3CA01F581F84120D0051223F /* Conversion_CalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA01F571F84120D0051223F /* Conversion_CalculatorUITests.swift */; };
+		D26BF3781F85861900387065 /* model.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26BF3771F85861900387065 /* model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		3CA01F531F84120D0051223F /* Conversion CalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Conversion CalculatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CA01F571F84120D0051223F /* Conversion_CalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Conversion_CalculatorUITests.swift; sourceTree = "<group>"; };
 		3CA01F591F84120D0051223F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D26BF3771F85861900387065 /* model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				3CA01F401F84120D0051223F /* LaunchScreen.storyboard */,
 				3CA01F431F84120D0051223F /* Info.plist */,
 				3CA01F3B1F84120D0051223F /* Conversion_Calculator.xcdatamodeld */,
+				D26BF3771F85861900387065 /* model.swift */,
 			);
 			path = "Conversion Calculator";
 			sourceTree = "<group>";
@@ -265,6 +268,7 @@
 				3CA01F3D1F84120D0051223F /* Conversion_Calculator.xcdatamodeld in Sources */,
 				3CA01F371F84120D0051223F /* ViewController.swift in Sources */,
 				3CA01F351F84120D0051223F /* AppDelegate.swift in Sources */,
+				D26BF3781F85861900387065 /* model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
